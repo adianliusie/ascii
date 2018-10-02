@@ -12,13 +12,10 @@ def average_luminosity(patch, size):
 
 
 im = Image.open("mario.jpg")
-print(im.show())
 
 im = im.resize((360, 360))
-print(im.show())
 
 im = im.filter(ImageFilter.FIND_EDGES)
-print(im.show())
 
 size = 10
 patch_list=[]
